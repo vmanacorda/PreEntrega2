@@ -1,0 +1,137 @@
+:root {
+    --colorfondo:  rgb(206, 198, 198);
+    --colorsecciones: rgba(105, 61, 102, 0.596);
+    --colorletrasnav:rgb(92, 9, 95);
+    --fontfamily: Georgia, 'Times New Roman', Times, serif;
+}
+
+.primer{
+  border-bottom:  solid 6px;
+  border-top:solid 5px;
+  border-color:var(--colorletrasnav);
+}
+
+.titulo{
+ height: 300px;
+ width: 100%;
+ filter: grayscale(80%);
+}
+
+.segundo{
+ font-size: x-large;
+ font-family: var(--fontfamily);
+ background-color: rgb(105, 101, 101);
+ height: 50px;
+ color: var(--colorsecciones);
+}
+
+.colorletrasnav{
+  color: var(--colorletrasnav) !important;
+  
+}
+ 
+
+.subtitulo{
+ color: rgb(41, 12, 28);
+ margin-bottom: 40px;
+ font-family: var(--fontfamily);
+}
+
+.tercer{
+ padding-top: 60px;
+ text-align: center;
+ background-color:var(--colorfondo);
+}
+
+.imagenesgeneralesprimera{
+ width: 600px;
+ margin-top: 20px;
+ margin-left: 25px;
+ margin-bottom: 30px;
+ box-shadow: 0 0 30px
+}
+
+.cuarto{
+ background-color: var(--colorfondo);
+}
+
+.quinto{
+ background-color: var(--colorfondo);
+ padding-bottom: 40px;
+}
+
+h1{
+ text-align: center;
+}
+    
+      
+.letrassecciones{
+ color: var(--colorletrasnav);
+ font-family: var(--fontfamily);
+}
+     
+.secto{
+ background-color: gray;
+ padding-top: 10px;
+}
+
+      /*--------------------contactos----------------------------*/
+.segundocontacto{ 
+      font-size: x-large;
+      font-family: var(--fontfamily);
+      background-color: rgb(105, 101, 101);
+      height: 50px;
+      color: var(--colorsecciones); }
+
+.form{
+ margin-bottom: 20px;
+ margin-top: 10px;
+ font-size: x-large;
+ color: var(--colorletrasnav);
+ font-family: var(--fontfamily);
+ width: 30%;
+}
+
+.cuartocontacto{
+    margin-bottom: 70px;
+   }
+
+.quintacontacto{
+ margin-bottom:  30px;
+}
+
+
+@media (max-width: 480px) { 
+
+    .titulo{ 
+     height: 150px;
+     width: 200px;
+    }
+
+    .der1 {
+     display: none;
+    }
+    
+
+    
+
+    .imagenesgeneralesprimera{
+        margin: 0;
+    }
+     
+    .subtitulo{
+     font-size: large ;
+    }
+      
+    .segundo{
+        height: 150px;
+        
+    } 
+    .segundocontacto{
+        height: 100px;
+    }
+  .segundocontacto{
+    font-size: x-large;
+    height: 100px;
+  }
+ }
